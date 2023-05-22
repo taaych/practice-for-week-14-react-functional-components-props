@@ -1,12 +1,13 @@
 import bulbasaur from './images/bulbasaur.jpg';
+import spriggy from './images/Spriggy.png'
 import './Showcase.css';
 
 const Showcase = () => {
-  const favPokemon = 'Bulbasaur';
+  const favPokemon = 'Sprigitto';
 
   const pokeCharacteristics = {
     type: 'Grass',
-    move: 'Vine Whip'
+    move: 'Leafage'
   };
 
   return (
@@ -14,8 +15,8 @@ const Showcase = () => {
       <h1>{favPokemon}'s Showcase Component</h1>
       <img
         style={{ height: 500, width: 500, padding: 20, borderRadius: '50%' }}
-        src={bulbasaur}
-        alt='bulbasaur'
+        src={spriggy}
+        alt='Sprigitto'
       />
       <h2>
         {favPokemon}'s type is{' '}
